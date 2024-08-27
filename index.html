@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+     
+    <button id="theme-toggle" onclick="toggleTheme()">🌙 Modo Oscuro</button>
+
+    <div class="main-container">
+        <div class="text-area-container">
+            <textarea id="texto" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="warning">
+                <p>⚠ Solo letras minúsculas y sin acentos ⚠</p>
+            </div>
+            <div class="buttons">
+                <button class="encrypt-btn" onclick="encriptar()">Encriptar</button>
+                <button class="decrypt-btn" onclick="desencriptar()">Desencriptar</button>
+                <button class="copy-btn" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+        <div class="output-container">
+            <img id="figura" src="./img/figura.png" alt="Muñeco">
+            <div class="output-box">
+                <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+    <footer>
+        <p>Hecho por Cirilo para Alura Latam 🥳</p>
+    </footer>
+</body>
+</html>
