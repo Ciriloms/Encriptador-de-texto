@@ -23,7 +23,7 @@ El proyecto está completado y funcional. Se han implementado todas las caracter
 
 4 Modo Oscuro/Claro: Alterna entre un tema oscuro y un tema claro para mejorar la experiencia de usuario.
 # 🔗 Acceso al Proyecto
-Puedes acceder al proyecto a través del siguiente enlace:
+Puedes acceder al proyecto a través del siguiente enlace: https://ciriloms.github.io/Encriptador-de-texto/
 # 🛠️ Tecnologías Utilizadas
 HTML5: Estructura básica de la aplicación web.
 
